@@ -274,4 +274,13 @@ Protip: Use the Chrome extensions Window Resizer and Browser Width to see the br
   #masthead {
     /* per instructions */
     position: static;
+  }
+
+  /* for images to display full width and centered on small screens */
+  .work {
+      width: 100%;
+    }
+  .work:nth-child(even) {
+      margin-right: 0px;
+    }
 }
